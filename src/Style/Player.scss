@@ -1,0 +1,70 @@
+.player-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+.player-inputs{
+    width: 50%;
+    height: 400px;
+    border: 1px solid rgb(88, 85, 85);
+    border-radius: 10px;
+    background-color: rgb(237, 242, 249);
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    >input{
+        width: 70%;
+        height: 40px;
+        outline: none;
+        font-family: "Roboto";
+        border: 1px solid rgb(163, 159, 159);
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 1rem;
+        color: rgb(63, 61, 61);
+    }
+    >input:focus{
+        border: 1.5px solid rgb(66, 66, 239);
+    }
+    .desc{
+        width: 70%;
+        
+        outline: none;
+        font-family: "Roboto";
+        border: 1px solid rgb(163, 159, 159);
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 1rem;
+        color: rgb(63, 61, 61);
+        height: 100px;
+    }
+    .desc:focus{
+        border: 1.5px solid rgb(66, 66, 239);
+    }
+    .btn{
+        padding: 15px 55px;
+        color: white;
+        border: 1px solid rgb(69, 67, 67);
+        background-color: rgb(76, 76, 241);
+        border-radius: 5px;
+        font-size: 1.1rem;
+    }
+    .btn:hover{
+        color: white;
+        background-color: rgb(2, 85, 238);
+        cursor: pointer;
+    }
+}
+.heading{
+    align-self: flex-start;
+    margin-left: 100px;
+    color: rgb(10, 147, 232);
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}

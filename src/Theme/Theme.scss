@@ -1,0 +1,35 @@
+// Colors
+
+$nav-color: rgb(46, 43, 43);
+$primary:rgb(222, 216, 216);
+$secondary-color:rgb(30, 121, 233);
+
+
+// Fonts sizes
+
+$fs-primary:1.2rem;
+
+
+// buttons
+
+.btn{
+    padding: 8px 15px;
+    color: $primary;
+    border: 1px solid rgb(69, 67, 67);
+    background-color: $secondary-color;
+    border-radius: 5px;
+}
+.btn:hover{
+    color: $primary;
+    background-color: rgb(2, 144, 238);
+    cursor: pointer;
+}
+
+
+// functions
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

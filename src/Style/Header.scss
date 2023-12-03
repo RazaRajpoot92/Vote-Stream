@@ -1,0 +1,45 @@
+@import "../Theme/Theme.scss";
+
+
+.nav-container{
+    width: 100%;
+    padding: 0px 40px;
+    position:sticky;
+    top:0;
+    height: 10vh;
+    z-index: 1;
+  
+    background-color: $nav-color;
+    color: $primary;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    > h1{
+        cursor: pointer;
+    }
+    > h1:hover{
+        color: $secondary-color ;
+    }
+
+    .nav-links{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: $fs-primary;
+        .nav-link{
+        text-decoration: none;
+        color: $primary;
+    }
+        .nav-link:hover{
+            color: $secondary-color;
+            cursor: pointer;
+            text-decoration: none
+        }
+    }
+}
+
+.btn{
+    @extend .btn;
+    text-decoration: none;
+}
